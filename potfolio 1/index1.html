@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" />
+    <script src="https://kit.fontawesome.com/5aac1c3c0c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <h1>potfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>HELLO,</p>
+                <h1>I'm <span>Vishal <br>singh</span></h1>
+                <h2>fronted developer</h2>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="poy.jpg">
+                </div>
+                <!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,about,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>
+                    <div class="about-col-2">
+                        <h1 class="sub">About Me</h1>
+                        <p>A Graduate in BCA(Artificial Intelligence & Data Science)from vivekananda global university.
+                            I am passionate about computers and technology, and I am eager to learn more about the
+                            field. I am also a hard worker and I am always willing to go the extra mile.
+                            In my first year of BCA, I have learned about the basics of computer programming, computer
+                            architecture, and operating systems. I have also gained experience in using various software
+                            applications, such as Microsoft Office, Visual Studio.
+                            I am looking for opportunities to gain experience in the computer field. I am interested in
+                            internships, part-time jobs, and volunteer positions. I am also open to networking with
+                            other professionals in the field.</p>
+
+                        <div class="tab">
+                            <p class="link active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="link" onclick="opentab('experience')">Experience</p>
+                            <p class="link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Skills</span><br> C,DSA,HTML,CSS.</li>
+                                <li><span>Skills</span><br> Adca+ ,EXCLE,,WORD,POWERPOINT</li>
+                                <li><span>Skills</span><br> COMMINECATION</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Experience</span><br> </li>
+                                <li><span>Experience</span><br> </li>
+                                <li><span>Experience</span><br> </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>+2 Hgh school jamui</span><br> 10[2019] 2019</li>
+                                <li><span>+2 High School Jamui</span><br> 12th [2021]</li>
+                                <li><span>VGU</span><br> bca [2026]</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!.............services...................>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Service</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicinmque fugiat q</p>
+                        <a href="#">lern more</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicinmque fugiat q</p>
+                        <a href="#">lern more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicinmque fugiat q</p>
+                        <a href="#">lern more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,portfolio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="work-1.png">
+                            <div class="layer">
+                                <h3>phone feature </h3>
+                                <p>The project so you some feature of motlara phone
+                                    
+                                </p>
+                                <a href="index.html"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="work-2.png">
+                            <div class="layer">
+                                <h3>music app </h3>
+                                <p> the work is still going on.
+                                    .</p>
+                                <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="work-3.png">
+                            <div class="layer">
+                                <h3>online shopping app </h3>
+                                <p>The app connects you the talented people around the world.
+                                    download it from piay store.
+                                </p>
+                                <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See more </a>
+                </div>
+            </div>
+            <!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,contact,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>vishalsinghkh07@gmail.com</p>
+                                <p><i class="fa-regular fa-phone"></i>6299139049</p>
+                                <div class="social-icon">
+                                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.instagram.com/mr__singh_ji_07?igsh=MTV0N3c1MWc0bm43Mw=="><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href="www.linkedin.com/in/
+                                    vishal-kumar-singh-a214a7304
+                                    "><i class="fa-brands fa-linkedin"></i></a>
+
+                                </div>
+                                <a href="resumea.pdf" download class="btn btn2">Download cv</a>
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="name" placeholder="your name" required>
+                                    <input type="email" name="email" placeholder="your email" required>
+                                    <textarea name="message" rows="6" placeholder="you message"></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,copyright,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>
+                        <div class="copyright">
+                            <p>copyright @ kevin. made with by vishal singh</p>
+                        </div>
+                </div>
+
+                <script>
+                    var links = document.getElementsByClassName("link");
+                    var tabcontents = document.getElementsByClassName("tab-contents");
+
+                    for (var i = 0; i < links.length; i++) {
+                        links[i].addEventListener("click", function (event) {
+                            var tabname = this.getAttribute("onclick").match(/\('(.*)'\)/)[1];
+                            for (var j = 0; j < links.length; j++) {
+                                links[j].classList.remove("active-link");
+                            }
+                            for (var k = 0; k < tabcontents.length; k++) {
+                                tabcontents[k].classList.remove("active-tab");
+                            }
+                            this.classList.add("active-link");
+                            document.getElementById(tabname).classList.add("active-tab");
+                        });
+                    }
+                </script>
+                <script>
+                    var sidemenu = document.getElementById("sidemenu");
+
+                    function openmenu() {
+                        sidemenu.style.right = "0";
+                    }
+                    function closemenu() {
+                        sidemenu.style.right = "-200px";
+                    }
+                </script>
+
+                <script>
+                    const scriptURL = ' https://script.google.com/macros/s/AKfycbwhrzFWUcfD5dPTvmKiUHdqxEL1GQxLvWvR2n2AKq_G79Ltklq-1BsaVjIwYasCnJgN/exec'
+                    const form = document.forms['submit-to-google-sheet']
+
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                            .then(response => console.log('Success!', response))
+                            .catch(error => console.error('Error!', error.message))
+                    })
+                </script>
+</body>
+<html>
